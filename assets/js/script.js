@@ -11,6 +11,13 @@ window.addEventListener("load", () => {
     });
 });
 
+    // -------- POPUP -----------
+
+let popup = document.getElementById('popup');
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
    
 
 // ------- Back to Top Scroll Button -----------
@@ -44,13 +51,6 @@ window.onload = caleScrollValue;
 
 
 
-    // -------- POPUP -----------
-
-let popup = document.getElementById('popup');
-
-function openPopup(){
-    popup.classList.add("open-popup");
-}
 
 
 function closePopup(){
