@@ -11,18 +11,7 @@ window.addEventListener("load", () => {
     });
 });
 
-   // ------- Owl Carousel ----------
-    $('#comment_slider').owlCarousel({
-        items: 1,
-        dots: true,
-        loop: true,
-        autoplay: true,
-        autoplayHoverPause: true,
-        autoplayTimeout: 2000,
-        mouseDrag: false,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut'
-    });
+   
 
 // ------- Back to Top Scroll Button -----------
 
