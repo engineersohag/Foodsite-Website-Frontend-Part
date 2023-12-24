@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foodsite | SOHAG</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<!-- --- owl Carocale -- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- ------- Loading Part --------- -->
+
+	<div id="loading" class=""></div>
+
+	<!-- ----- Navbar section ----- -->
+
+	<section id="nav">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">
+		    	<img src="assets/img/logo.png" alt="..." class="img-fluid">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navs_icon">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navs_icon">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link actived" href="#">Home</a>
+		        </li>
+
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Menus</a>
+		        </li>
+		        
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Shop</a>
+		        </li>
+
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">News</a>
+		        </li>
+
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Pages</a>
+		        </li>
+
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Contact</a>
+		        </li>
+		        
+		      </ul>
+		      <form class="d-flex">
+		        <div class="box">
+		        	<a class="btn btn-danger" type="submit" href="#booking">Reserve a Table</a>
+		        </div>
+		      </form>
+		    </div>
+		  </div>
+		</nav>
+	</section>
+
+	<!-- ----- Home section ----- -->
+
+	<section id="home" class="home">
+
+			<!-- Carousel -->
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+		  <!-- Indicators/dots -->
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+		  </div>
+
+		  <!-- The slideshow/carousel -->
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="assets/img/hero-3.jpg" alt="...">
+		      <div class="carousel-caption">
+					<div class="row">
+		      		<div class="col-md-6 col-12">
+		      			<h2>delicious</h2>
+							<h1 class="text-warning">Hot Pizza</h1>
+							<h6>don't miss this deal</h6>
+							<div class="box">
+					        	<a class="btn btn-danger" type="submit" href="#booking">Reserve a Table</a>
+					        </div>
+		      		</div>
+		      	</div>
+			  </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="assets/img/hero-2.jpg" alt="...">
+		      <div class="carousel-caption">
+		      	<div class="row">
+		      		<div class="col-md-6 col-12">
+		      			<h2>grilled cheese</h2>
+							<h1 class="text-warning">burger</h1>
+							<h6>limited time offer</h6>
+							<div class="box">
+					        	<button class="btn btn-danger" type="submit">Reserve a Table</button>
+				        </div>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="assets/img/hero-1.jpg" alt="...">
+		      <div class="carousel-caption">
+		      	<div class="row">
+		      		<div class="col-md-6 col-12">
+		      			<h2>delicious</h2>
+							<h1 class="text-warning">Hot Pizza</h1>
+							<h6>don't miss this deal</h6>
+							<div class="box">
+					        	<a class="btn btn-danger" type="submit" href="#booking">Reserve a Table</a>
+					        </div>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+
+		</div>
+
+	</section>
+
+	<!-- ------ About - Section ------- -->
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="heading">
+						<span>About The Food Restaurant</span>
+						<h2>New Ground with Dishes to be Enjoyed</h2>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="text">
+						<p>Nisl quam nestibulum ac quam nec odio eleme aucan ligula. Orci varius nat oque pena tibus et urient monte nascete ridiculus mus nellentesq um ac qu am nec odio rbine. Nisl quam nestibu aucan ligula.</p>
+						<div class="mt-4 d-flex align-items-center">
+	                  <img alt="..." src="assets/img/sohag.jpg" class="img-fluid">
+	                  <div class="ps-3">
+	                     <h4>Sohag Hosen</h4>
+	                     <p class="p-text">Director and Chief Operations Officer</p>
+	                  </div>
+	               </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- --------- 3 Card Section ----------- -->
+
+	<section id="card">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-4 col-md-6">
+					<div class="card card_1 p-4">
+
+						<div class="d-card">
+							<div class="info">
+								<h1>Resturant</h1>
+								<p>Nisl quam nestibulum ac quam nec aucan ligula. Orci varius natoque li um ac quam nec odio rbine.</p>
+								<button type="button" class="btn">Reserve a Table</button>
+							</div>
+						</div>
+						<a href="#" class="btn btn-warning">Resturand</a>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 col-md-6 mt-lg-5 mt-5 mt-md-0">
+					<div class="card card_2 p-4 mt-lg-5">
+						<div class="d-card">
+							<div class="info">
+								<h1>Coctail Bar</h1>
+								<p>Nisl quam nestibulum ac quam nec aucan ligula. Orci varius natoque li um ac quam nec odio rbine.</p>
+								<a class="btn" type="submit" href="#booking">Reserve a Table</a>
+							</div>
+						</div>
+						<a href="#" class="btn btn-warning">Resturand</a>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 col-md-6 mt-5 mt-lg-0">
+					<div class="card card_3 p-4">
+						<div class="d-card">
+							<div class="info">
+								<h1>Private Dining</h1>
+								<p>Nisl quam nestibulum ac quam nec aucan ligula. Orci varius natoque li um ac quam nec odio rbine.</p>
+								<a class="btn" type="submit" href="#booking">Reserve a Table</a>
+							</div>
+						</div>
+						<a href="#" class="btn btn-warning">Resturand</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ------- Discover Section ---------- -->
+
+	<section class="discover" id="discover">
+		<div class="container">
+			<div class="heading">
+				<h1>Discover Menu</h1>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-3 col-lg-2 offset-md-1">
+					<a href="#" class="btn text-dark actived">
+						<div class="card">
+							<i class='bx bxs-cookie'></i>
+							<h4>Dessert</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-md-3 col-lg-2">
+					<a href="#" class="btn text-dark">
+						<div class="card">
+							<i class='bx bxs-pizza'></i>
+							<h4>Pizza</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="btn text-dark">
+						<div class="card">
+							<i class='bx bxs-coffee' ></i>
+							<h4>Coffee</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2 d-lg-inline-block d-none">
+					<a href="#" class="btn text-dark">
+						<div class="card">
+							<i class='bx bxs-popsicle'></i>
+							<h4>Ice-cream</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2 d-lg-inline-block d-none">
+					<a href="#" class="btn text-dark">
+						<div class="card">
+							<i class='bx bxs-drink'></i>
+							<h4>Drink</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- - Discover - centent - -->
+
+			<div class="dis_content mt-lg-5">
+				<div class="row">
+					<div class="col-12 col-md-4 d-md-block d-none">
+						<img src="assets/img/discover-1.png" alt="..." class="img-fluid">
+					</div>
+					<div class="col-12 col-lg-8 content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4"></div>
+								<div class="col-lg-8 col-0">
+									<h1>Dessert</h1>
+									<div class="wrap">
+										<div class="d-flex justify-content-between">
+											<h4>Four Chease Garlic Bread</h4>
+											<h4><span>$9.00</span></h4>
+										</div>
+										<p>Toested french bread topped with romano</p>
+									</div>
+									<div class="wrap">
+										<div class="d-flex justify-content-between">
+											<h4>Rastrami Roll</h4>
+											<h4><span>$16.00</span></h4>
+										</div>
+										<p>Spreadable cream cheese, blue cheese</p>
+									</div>
+									<div class="wrap">
+										<div class="d-flex justify-content-between">
+											<h4>Caprese Salad Kabobs</h4>
+											<h4><span>$34.00</span></h4>
+										</div>
+										<p>Cherry-size fresh mozzarella cheese balls</p>
+									</div>
+									<div class="wrap">
+										<div class="d-flex justify-content-between">
+											<h4>Peachy Jalepeno Guacomole</h4>
+											<h4><span>$40.00</span></h4>
+										</div>
+										<p>Ground cumin, avocados, peeled and cubed</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- -------- Offer Section --------- -->
+
+	<section class="offer" id="offer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="card">
+						<div class="wrap">
+							<h1>Steaks & BBQ</h1>
+							<p>canonical classics to obscure tiki drinks</p>
+						</div>
+						<div class="offer-box">
+							<h2><span>$120</span></h2>
+							<h5>per person</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 mt-lg-0 mt-5">
+					<div class="card card2">
+						<div class="wrap">
+							<h1>Cocktails</h1>
+							<p>canonical classics to obscure tiki drinks</p>
+						</div>
+						<div class="offer-box">
+							<h2><span>$120</span></h2>
+							<h5>per person</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- --------- Booking Section -------- -->
+
+	<section class="booking" id="booking">
+		<div class="container book">
+			<div class="row">
+				<div class="col-12 col-lg-4">
+					<h2>reserve A table</h2>
+					<p>Discover our New Menu !</p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<form action="#">
+						<input type="text" placeholder="Complete Name" class="form-control">
+						<input type="number" placeholder="No of Guest" class="form-control">
+					</form>
+				</div>
+				<div class="col-12 col-lg-4">
+					<form method="POST">
+						<input type="email" placeholder="Email Addess" class="form-control">
+						<div class="row">
+							<div class="col-6">
+								<input type="date" class="form-control">
+							</div>
+							<div class="col-6">
+								<input type="time" class="form-control">
+							</div>
+						</div>
+					</form>
+						<div class="row">
+							<div class="col-12">
+								<div class="box">
+						        	<button class="btn btn-danger popup-btn" type="submit" onclick="openPopup()" >Reserve a Table</button>
+
+						        	<div class="popup" id="popup">
+							            <img src="assets/img/tick.png" alt="..">
+							            <h2>Thank You!</h2>
+							            <p>Your details has been successfully submitted. Thanks!</p>
+							            <button type="submit" onclick="closePopup()">OK</button>
+							        </div>
+						        </div>	
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ----------- Dieshed Section ----------- -->
+
+	<section class="dieshed" id="dieshed">
+		<div class="container">
+			<div class="heading mb-4">
+				<h1>Featured Dishes</h1>
+			</div>
+		
+			<div class="row mt-5">
+				<div class="col-lg-4 col-12 col-md-6">
+					<div class="card">
+						<img src="assets/img/featured-dishes-3.png" alt=".." class="img-fluid">
+						<div class="card-body">
+							<div class="icon">
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+							</div>
+							<h4>Parisian Hamburger</h4>
+							<p><span>$</span>10.85</p>
+						</div>
+						<a href="#">
+							<i class='bx bx-shopping-bag' ></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12 col-md-6">
+					<div class="card">
+						<img src="assets/img/featured-dishes-1.png" alt=".." class="img-fluid">
+						<small>Sale</small>
+						<div class="card-body">
+							<div class="icon">
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+							</div>
+							<h4>Brown Sandwich</h4>
+							<p><span>$</span>10.85</p>
+						</div>
+						<a href="#">
+							<i class='bx bx-shopping-bag' ></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12 col-md-6">
+					<div class="card">
+						<img src="assets/img/featured-dishes-2.png" alt=".." class="img-fluid">
+						<div class="card-body">
+							<div class="icon">
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+							</div>
+							<h4>Banana Leaves</h4>
+							<p><span>$</span>10.85</p>
+						</div>
+						<a href="#">
+							<i class='bx bx-shopping-bag' ></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- -------- Testimonial Section ------- -->
+
+	<section class="testimonial py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12">
+					<div class="title">
+						<h5><span>Testimonials & Reviews</span></h5>
+						<h1>Our Customar Feedbacks</h1>
+					</div>
+
+					<!-- -- comment's part -- -->
+					<div class="comment card owl-carousel owl-theme" id="comment_slider">
+						<div class="wrap">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus sequi blanditiis, ex delectus, nesciunt obcaecati, aut quisquam officia quidem culpa labore pariatur architecto id.</p>
+							<h2>
+								<span>Sohag Hosen</span>
+								<div class="star d-inline">
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								<i class='bx bxs-star'></i>
+								</div>
+							</h2>
+							<div class="coma">
+								<i class='bx bxs-quote-alt-left'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 d-lg-block d-none">
+					<div class="img-wrap">
+						<div class="box-1">
+							<img src="assets/img/bratlee-hamint-1.jpg" alt=".." style="width: 240px;height: 170px; border-radius: 16px;">
+						</div>
+						<div class="box-2">
+							<img src="assets/img/bratlee-hamint-2.jpg" alt=".." style="border-radius: 16px; height: 270px;">
+						</div>
+						<div class="box-3">
+							<img src="assets/img/bratlee-hamint-3.jpg" alt=".." style="border-radius: 16px; width: 280px; height: 170px;">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<!-- ----- Chef section ----- -->
+
+	<section class="chef d-lg-block d-none">
+		<div class="container">
+			<div class="heading mb-5">
+				<h1>Meet Our Expertss</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-12">
+					<img src="assets/img/chef-1.png" alt="..." class="img-fluid">
+
+					<div class="profile-box">
+						<div class="wrap">
+							<h5><span>Dessert specialist</span></h5>
+							<h1>Thomas Walim</h1>
+							<div class="icon">
+								<a href="#">
+									<i class='bx bxl-facebook'></i>
+								</a>
+								<a href="#">
+									<i class='bx bxl-twitter' ></i>
+								</a>
+								<a href="#">
+									<i class='bx bxl-linkedin-square'></i>
+								</a>
+							</div>
+							<img src="assets/img/sine.png" alt="..." class="img-fluid">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<img src="assets/img/chef-2.png" alt="..." class="img-fluid">
+
+					<div class="profile-box">
+						<div class="wrap">
+							<h5><span>Chef Master</span></h5>
+							<h1>Jonny Dohian</h1>
+							<div class="icon">
+								<a href="#">
+									<i class='bx bxl-facebook'></i>
+								</a>
+								<a href="#">
+									<i class='bx bxl-twitter' ></i>
+								</a>
+								<a href="#">
+									<i class='bx bxl-linkedin-square'></i>
+								</a>
+							</div>
+							<img src="assets/img/sine.png" alt="..." class="img-fluid">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<img src="assets/img/chef-3.png" alt="..." class="img-fluid">
+
+					<div class="profile-box">
+						<div class="wrap">
+							<h5><span>Dessert specialist</span></h5>
+							<h1>Room Minal</h1>
+							<div class="icon">
+								<a href="#">
+									<i class='bx bxl-facebook'></i>
+								</a>
+								<a href="#">
+									<i class='bx bxl-twitter' ></i>
+								</a>
+								<a href="#">
+									<i class='bx bxl-linkedin-square'></i>
+								</a>
+							</div>
+							<img src="assets/img/sine.png" alt="..." class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ------- Apps Section -------- -->
+
+	<section class="apps">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<h5><span>Best App For Foods Ordering</span></h5>
+					<h1>Manage Your Restaurant Anytime! Anywhere!</h1>
+
+					<ul>
+						<li>Higher Reach - Minimal Effort</li>
+						<li>Showcase your Brand</li>
+						<li>Exclusive offers & discounts</li>
+					</ul>
+
+					<div class="app-link d-md-flex d-none ">
+						<a href="#">
+							<i class='bx bxl-play-store'></i>
+							<div class="warp">
+								<h5>Download Form</h5>
+								<h5>Google Play</h5>
+							</div>
+						</a>
+						<a href="#">
+							<i class='bx bxl-apple'></i>
+							<div class="warp">
+								<h5>Download Form</h5>
+								<h5>Google Play</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 d-none d-md-block">
+					<img src="assets/img/manage-your.png" alt="..." class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ------ NEWS  Section ------ -->
+
+	<section class="news">
+		<div class="container">
+			<div class="heading mb-5">
+				<h1>Recent News</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-12 py-4 col-md-6">
+					<div class="container-xxl">
+						<div class="row">
+							<div class="col-lg-6 col-12">
+								<img src="assets/img/recent-news-1.jpg" alt="..." class="img-fluid" style="border-radius: 15px;">
+							</div>
+							<div class="col-lg-6 col-12 mt-lg-0 mt-4">
+								<a href="#" class="date">29 December, 2023</a>
+								<h2>Table restaurant located in on Bank Street</h2>
+								<div class="wrap d-flex">
+									<img src="assets/img/man.jpg" alt="..." class="img-fluid">
+									<h4 class="ms-3">by Thomas Walimes</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 py-4 col-md-6">
+					<div class="container-xxl">
+						<div class="row">
+							<div class="col-lg-6 col-12">
+								<img src="assets/img/recent-news-2.jpg" alt="..." class="img-fluid" style="border-radius: 15px;">
+							</div>
+							<div class="col-lg-6 col-12 mt-lg-0 mt-4">
+								<a href="#" class="date">29 December, 2023</a>
+								<h2>Table restaurant located in on Bank Street</h2>
+								<div class="wrap d-flex">
+									<img src="assets/img/man.jpg" alt="..." class="img-fluid">
+									<h4 class="ms-3">by Thomas Walimes</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ------------ Follow Section ----------- -->
+
+	<section class="follow d-md-block d-none">
+		<div class="container">
+			<div class="wrap"></div>
+			<div class="text">
+				<div class="ins-icon">
+					<i class='bx bxl-instagram'></i>
+				</div>
+				<a href="#">Follow @github.com/enginnersohag</a>
+				<h6>Join our community to inspire your desires</h6>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- --------- Big Footer Section --------- -->
+
+	<section class="big-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-4 col-12">
+					<div class="card p-4">
+						<img src="assets/img/logo-white.png" alt="...">
+						<p>Tuesday - Saturday: 12:00pm - 23:00pm <span>Closed on Sunday</span></p>
+						<a href="#">
+							<i class='bx bxl-github'></i>
+							<h5>hello@<span>enginnersohag</span></h5>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-2 d-none d-lg-block">
+					<h2>About</h2>
+					<div class="menu">
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Information
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Special Desh
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Reservition
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Contact
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-2 d-none d-lg-block">
+					<h2>Menu</h2>
+					<div class="menu">
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Steak
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Burger
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Bar B Q
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Ice-crime
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Pizza
+						</a>
+						<a href="#">
+							<i class='bx bx-chevron-right'></i>
+							Pasta
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 d-md-block d-none">
+					<h2>Newsletter</h2>
+
+					<div class="wrap menu">
+						<p>Get recent news and updates.</p>
+						<input type="email" placeholder="Enter Your Email Addess.." class="form-control">
+						<div class="box">
+				        	<button class="btn btn-danger" type="submit">Subcribe</button>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- -------- Footer Section -------- -->
+
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
+					<h4> <span>© 2023 Foodio</span> | Restaurant and BBQ.</h4>
+				</div>
+				<div class="col-lg-1 col-2 d-md-inline-block d-none">
+					<a href="#">Facebook</a>
+				</div>
+				<div class="col-1 d-lg-block d-none">
+					<a href="#">Twitter</a>
+				</div>
+				<div class="col-lg-1 col-md-2 col-4">
+					<a href="#">Linked in</a>
+				</div>
+				<div class="col-1 d-lg-block d-none">
+					<a href="#">Youtube</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- -------- Back to Top Scroll Button ------- -->
+
+	<div id="sc_btn">
+		<i class='bx bxs-up-arrow-alt' id="sc_value"></i>
+	</div>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- -- Owl Carosale CDN -- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-QAc08ipPd7ElgrEsKMj9mFi1LOYhEBBeusKfVSXktZSjlm5BIThey5q7IEYtZVixxC+lIN6CnSZCfI4s00Dq3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
