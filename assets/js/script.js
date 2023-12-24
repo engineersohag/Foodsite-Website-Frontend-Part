@@ -1,3 +1,11 @@
+    // -------- POPUP -----------
+
+let popup = document.getElementById('popup');
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+   
 
 
     // --- -- Page Loading -- ---
@@ -11,14 +19,6 @@ window.addEventListener("load", () => {
     });
 });
 
-    // -------- POPUP -----------
-
-let popup = document.getElementById('popup');
-
-function openPopup(){
-    popup.classList.add("open-popup");
-}
-   
 
 // ------- Back to Top Scroll Button -----------
 
